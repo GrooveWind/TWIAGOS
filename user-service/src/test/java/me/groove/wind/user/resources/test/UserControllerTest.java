@@ -26,14 +26,14 @@ public class UserControllerTest {
 
     @Test
     public void testUserHome() throws Exception {
-        ResponseEntity<String> entity = this.restTemplate.getForEntity("/user/home", String.class);
+        ResponseEntity<String> entity = this.restTemplate.getForEntity("/v1/user/home", String.class);
         assertThat(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(entity.getBody()).isEqualTo("Hello World");
     }
 
     @Test
     public void testUserInfo() throws Exception {
-        ResponseEntity<User> entity = this.restTemplate.getForEntity("/user/info/2", User.class);
+        ResponseEntity<User> entity = this.restTemplate.getForEntity("/v1/user/info/2", User.class);
         assertThat(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertThat(entity.getBody().getId()).isEqualTo(2L);
     }

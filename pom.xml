@@ -10,6 +10,7 @@
     <modules>
         <module>base</module>
         <module>user-service</module>
+        <module>eureka-server</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
  * Created by GrooveWind on 2017/2/23.
  */
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/v1/user") /** 使用v1前缀进行API版本控制*/
 public class UserController {
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);

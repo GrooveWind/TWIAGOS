@@ -1,0 +1,28 @@
+# Spring properties
+spring:
+  application:
+     name: user-service  # Service registers under this name
+  freemarker:
+    enabled: false           # Ignore Eureka dashboard FreeMarker templates
+  thymeleaf:
+    cache: false             # Allow Thymeleaf templates to be reloaded at runtime
+
+# Map the error path to error template (for Thymeleaf)
+error:
+  path=/error
+
+info:
+  component: User Service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# HTTP Server
+server:
+  port: 7070   # HTTP port
+
+
+
