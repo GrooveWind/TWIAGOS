@@ -8,6 +8,8 @@ The world in a grain of sand（一沙一世界）
 
 
 ## 模块构成
-> base：基础的领域抽象
-> user-service：用户服务
-> eureka-server： Eureka服务，用于服务注册与发现
+
+- base：基础领域抽象
+- user-service: 用户服务
+- eureka-server: 注册中心使用Eureka，用于服务注册与发现
+- zuul-server: 负载均衡+代理

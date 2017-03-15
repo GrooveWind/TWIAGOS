@@ -22,7 +22,7 @@ eureka:
 
 # HTTP Server
 server:
-  port: 7070   # HTTP port
+  port: 8762   # HTTP port
 
 
 
