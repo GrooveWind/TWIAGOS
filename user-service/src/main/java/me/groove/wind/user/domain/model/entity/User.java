@@ -2,7 +2,6 @@ package me.groove.wind.user.domain.model.entity;
 
 import me.wind.groove.base.domain.model.entity.BaseEntity;
 import me.wind.groove.base.domain.model.enums.Sex;
-
 import java.util.Date;
 
 /**
@@ -13,7 +12,6 @@ public class User extends BaseEntity<Long> {
 
     private String realname;
     private String nickname;
-
     private Sex sex;
     private Date birthday;
     private int age;

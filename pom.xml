@@ -12,6 +12,7 @@
         <module>user-service</module>
         <module>eureka-server</module>
         <module>zuul-server</module>
+        <module>sql-mybatis</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -7,11 +7,11 @@ import me.wind.groove.base.repository.ModifyRepository;
  */
 public abstract class MainService<TE, T> extends ReadOnlyBaseService<TE, T> {
 
-    private ModifyRepository<TE, T> _repository;
+    private ModifyRepository<TE, T> repository;
 
     protected MainService(ModifyRepository<TE, T> repository) {
         super(repository);
-        _repository = repository;
+        this.repository = repository;
     }
 
 }

@@ -7,6 +7,6 @@ import java.io.Serializable;
  */
 public abstract class BaseEntity<T> extends Entity<T> implements Serializable {
 
-    static final long serialVersionUID = -1L;
+    static final long serialVersionUID = 1L;
 
 }
