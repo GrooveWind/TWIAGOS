@@ -13,6 +13,7 @@
         <module>eureka-server</module>
         <module>zuul-server</module>
         <module>sql-mybatis</module>
+        <module>nosql-redis</module>
     </modules>
 
     <packaging>pom</packaging>
